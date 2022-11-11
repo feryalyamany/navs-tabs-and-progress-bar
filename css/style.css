@@ -1,0 +1,264 @@
+/*********************General******************/
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --section-color: #f7f7f7;
+  --black: #1c1c1c;
+  --font-color: #343434;
+  --icons: #eeeeee;
+  --form: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/********************* End General******************/
+
+/********************* component******************/
+.main-heading {
+  font-size: 2.3rem;
+  font-weight: 800;
+  color: var(--font-color);
+  position: relative;
+  z-index: 1;
+  margin: 48px auto;
+}
+
+.main-heading::after {
+  content: "";
+  position: absolute;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 30px;
+  left: 0;
+  bottom: -5px;
+  z-index: -1;
+}
+/********************* End component******************/
+
+#about .img {
+  position: relative;
+}
+#about .img::after {
+  content: "";
+  position: absolute;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  width: 80%;
+  height: 30px;
+  left: 0;
+  bottom: -30px;
+}
+
+#about .img::before {
+  content: "";
+  position: absolute;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  height: 80%;
+  width: 30px;
+  left: -30px;
+  bottom: -20px;
+}
+
+@media (max-width:375px){
+    #about .img::before,
+    #about .img::after {
+        display: none;
+    }
+
+}
+
+#about .text .sub-head {
+  letter-spacing: 1.5px;
+  font-size: 0.9rem;
+}
+
+#about .progress .txt,
+#about .progress .number {
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#about .progress .txt {
+  left: 10px;
+}
+
+#about .progress .number {
+  right: 10px;
+}
+
+#portfolio .nav-link {
+  color: #000;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+#portfolio button  {
+  position: relative;
+}
+
+#portfolio button.active::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  margin: auto;
+}
+#portfolio .box {
+  overflow: hidden;
+  transform: transition 0.3s;
+}
+
+#portfolio .box:hover .layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.897);
+  border: 5px solid var(--section-color);
+  overflow: hidden;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+#portfolio .layer h5 {
+  letter-spacing: 1px;
+}
+
+#portfolio a{
+    color: var(--form) !important;
+}
+
+#portfolio .layer .icons span {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  background-color: var(--black);
+  border-radius: 50%;
+  text-align: center;
+}
+
+#portfolio .layer span:hover {
+  background-color: var(--icons);
+}
+
+#portfolio .layer span:hover a {
+  color: var(--black) !important;
+  
+}
+
+#testimonial .carousel-indicators button {
+  background-color: #ccc;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 60px;
+}
+
+#testimonial .carousel-indicators .active {
+  background-color: var(--font-color);
+}
+
+.carousel-inner span {
+  font-size: 0.8rem;
+}
+
+/********** start blog *************/
+#blog .box .img {
+  overflow: hidden;
+  transform: all 0.5s;
+}
+
+#blog .box .img:hover img {
+  transform: scale(1.2);
+  transition: .5s ease-in-out;
+}
+#blog .box .content h5 {
+  font-size: 1.1rem;
+  color: var(--font-color);
+}
+
+#blog .box .content .fw-semibold {
+  font-size: 0.8rem;
+}
+
+#blog .box .content .line {
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: relative;
+}
+
+#blog .box .content .line::after {
+  content: "";
+  background-color: var(--font-color);
+  width: 100%;
+  height: 2px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+}
+
+/********** end blog *************/
+
+#contact form input {
+  border-color: transparent;
+  background-color: var(--form);
+}
+
+#contact form textarea {
+  background-color: var(--form);
+  border-color: transparent;
+}
+#contact form input:focus {
+  box-shadow: none !important;
+}
+.main-bttn {
+  background-color: var(--black);
+  color: var(--icons);
+  padding: 10px 30px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  transform: transition 0.5s;
+  border: 1px solid transparent;
+}
+.main-bttn:hover {
+  background-color: var(--icons);
+  color: var(--font-color);
+  transition: all 0.5s ease;
+  border: 1px solid var(--font-color);
+}
+
+#footer {
+  background-color: var(--black);
+}

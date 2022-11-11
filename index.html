@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="about" class="about py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="img">
+              <img src="imgs/hero.jpg" class="img-fluid" alt=".." />
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="content">
+              <div class="text">
+                <h2 class="fw-bold mt-3 mt-sm-5">About Me</h2>
+                <p class="sub-head text-muted">
+                  UI / UX DESIGNER & WEB DEVELOPER
+                </p>
+                <p class="text-muted">
+                  I am
+                  <span class="text-muted fw-bold">Jerry Daniels</span> Lorem
+                  Ipsum is simply dummy text of the printing and typesetting
+                  industry. Lorem Ipsum has been the industry's standard dummy
+                  text ever It has survived not only five centuries, but also
+                  the leap into electronic but also the leap into electronic
+                  typesetting, remaining essentially unchanged. It was
+                  popularised in the 1960s with the release of Letraset sheets
+                  containing
+                </p>
+              </div>
+
+              <div class="progress my-4" style="height: 23px">
+                <div
+                  class="progress-bar position-relative"
+                  aria-valuenow="95"
+                  style="
+                    width: 95%;
+                    background-color: #1c1c1c;
+                    border-radius: 0 5px 5px 0;
+                  "
+                >
+                  <span class="txt text-white">Web Design</span>
+                  <span class="number text-white">95%</span>
+                </div>
+              </div>
+
+              <div class="progress my-4" style="height: 23px">
+                <div
+                  class="progress-bar position-relative"
+                  aria-valuenow="80"
+                  style="
+                    width: 80%;
+                    background-color: #1c1c1c;
+                    border-radius: 0 5px 5px 0;
+                  "
+                >
+                  <span class="txt text-white">Branding</span>
+                  <span class="number text-white">80%</span>
+                </div>
+              </div>
+
+              <div class="progress my-4" style="height: 23px">
+                <div
+                  class="progress-bar position-relative"
+                  aria-valuenow="90"
+                  style="
+                    width: 90%;
+                    background-color: #1c1c1c;
+                    border-radius: 0 5px 5px 0;
+                  "
+                >
+                  <span class="txt text-white">Development</span>
+                  <span class="number text-white">90%</span>
+                </div>
+              </div>
+
+              <div class="button">
+                <button class="main-bttn mt-3">Download C.V</button>
+                <button class="main-bttn mt-3">Contact Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <h1 class="main-heading text-center">Portfolio</h1>
+
+        <ul
+          class="nav nav-pills mb-5 d-flex justify-content-center align-items-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-all-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-all"
+              type="button"
+              role="tab"
+              aria-controls="pills-all"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-brand-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-brand"
+              type="button"
+              role="tab"
+              aria-controls="pills-brand"
+              aria-selected="false"
+            >
+              Brand
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-design-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-design"
+              type="button"
+              role="tab"
+              aria-controls="pills-design"
+              aria-selected="false"
+            >
+              Design
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-graphic-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-graphic"
+              type="button"
+              role="tab"
+              aria-controls="pills-graphic"
+              aria-selected="false"
+            >
+              Graphic
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-all"
+            role="tabpanel"
+            aria-labelledby="pills-home-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/1.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center">
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/2.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/3.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/4.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/5.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/6.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-brand"
+            role="tabpanel"
+            aria-labelledby="pills-profile-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/4.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/6.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-design"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/2.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/5.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="pills-graphic"
+            role="tabpanel"
+            aria-labelledby="pills-contact-tab"
+            tabindex="0"
+          >
+            <div class="row g-4">
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/1.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icon">
+                          <span
+                            class="d-flex justify-content-center align-items-center"
+                            ><a href="#" class=""
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/3.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="box bg-white position-relative">
+                  <img src="imgs/portfolio/5.jpg" class="img-fluid" alt="..." />
+                  <div
+                    class="layer position-absolute d-flex justify-content-center align-items-center"
+                  >
+                    <ul class="text-center ps-0">
+                      <li class="mb-2"><h5>Web Design</h5></li>
+                      <li>
+                        <div class="icons">
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i class="fa-solid fa-link-slash"></i></a
+                          ></span>
+                          <span class="d-inline-block"
+                            ><a href="#"
+                              ><i
+                                class="fa-solid fa-magnifying-glass-plus"
+                              ></i></a
+                          ></span>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="py-5 bg-light">
+      <div class="container">
+        <h1 class="main-heading text-center">Testimonial</h1>
+
+        <div class="row">
+          <div class="col-md-8 text-center mx-auto py-4">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="true"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="img w-25 mx-auto my-3">
+                    <img
+                      src="imgs/clients/1 (1).jpg"
+                      class="img-fluid rounded-circle w-50"
+                      alt=".."
+                    />
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ab iusto provident, explicabo, quas fuga enim voluptatibus
+                      quis nemo adipisci culpa, ipsa impedit qui rem dolorum.
+                    </p>
+                    <h5 class="lead fs-6 fw-bold">Alex Smith</h5>
+                    <span class="text-muted fw-bold">Envato Customer</span>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img w-25 mx-auto my-3">
+                    <img
+                      src="imgs/clients/1 (1).jpg"
+                      class="img-fluid rounded-circle w-50"
+                      alt=".."
+                    />
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ab iusto provident, explicabo, quas fuga enim voluptatibus
+                      quis nemo adipisci culpa, ipsa impedit qui rem dolorum.
+                    </p>
+                    <h5 class="lead fs-6 fw-bold">Alex Smith</h5>
+                    <span class="text-muted fw-bold">Envato Customer</span>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="img w-25 mx-auto my-3">
+                    <img
+                      src="imgs/clients/1 (1).jpg"
+                      class="img-fluid rounded-circle w-50"
+                      alt=".."
+                    />
+                  </div>
+
+                  <div class="content">
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ab iusto provident, explicabo, quas fuga enim voluptatibus
+                      quis nemo adipisci culpa, ipsa impedit qui rem dolorum.
+                    </p>
+                    <h5 class="lead fs-6 fw-bold">Alex Smith</h5>
+                    <span class="text-muted fw-bold">Envato Customer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="py-5 bg-light">
+      <div class="container">
+        <h1 class="main-heading text-center">Our Blog</h1>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="box">
+              <div class="box-body">
+                <div class="img">
+                  <img src="imgs/blog/1.jpg" class="imf-fluid w-100" alt=".." />
+                </div>
+                <div class="content px-3 py-4 bg-white">
+                  <a href="#" class="text-muted fw-semibold">Trends</a>
+                  <h5 class="my-2">
+                    Best Design Items to Appeal to the millennial Generation.
+                  </h5>
+                  <a href="#" class="line text-muted">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="box">
+              <div class="box-body">
+                <div class="img">
+                  <img src="imgs/blog/2.jpg" class="imf-fluid w-100" alt=".." />
+                </div>
+                <div class="content px-3 py-4 bg-white">
+                  <a href="#" class="text-muted fw-semibold">Trends</a>
+                  <h5 class="my-2">
+                    Best Design Items to Appeal to the millennial Generation.
+                  </h5>
+                  <a href="#" class="line text-muted">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="box">
+              <div class="box-body">
+                <div class="img">
+                  <img src="imgs/blog/3.jpg" class="imf-fluid w-100" alt=".." />
+                </div>
+                <div class="content px-3 py-4 bg-white">
+                  <a href="#" class="text-muted fw-semibold">Trends</a>
+                  <h5 class="my-2">
+                    Best Design Items to Appeal to the millennial Generation.
+                  </h5>
+                  <a href="#" class="line text-muted">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h1 class="main-heading text-center">Contact Us</h1>
+        <form class="row two g-3">
+          <div class="col-lg-6">
+            <input
+              class="p-2 w-100 text-muted border rounded-2"
+              name="#"
+              placeholder="Name"
+            />
+          </div>
+          <div class="col-lg-6">
+            <input
+              class="p-2 w-100 text-muted rounded-2"
+              name="#"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+          <div class="col-lg-12">
+            <textarea
+              placeholder="Message"
+              class="w-100 p-3 text-muted rounded-2 mb-0"
+            ></textarea>
+          </div>
+          <div class="col-lg-3">
+            <button class="fw-semibold main-bttn" type="submit">submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer id="footer" class="py-5">
+      <div class="container text-center">
+        <p class="text-muted">© By FERYAL All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="js/swiper-bundle.min.js"></script> -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
